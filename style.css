@@ -100,6 +100,18 @@ body{
     color: #dc3545;
 }
 
+.timer {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+#time-left {
+    font-size: 22px;
+}
+
 .progress-bar {
     height: 10px;
     background-color: #f8f0c5;

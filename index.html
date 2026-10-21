@@ -8,15 +8,19 @@
 </head>
 <body>
     <div class="container">
+        
         <div class="screen active" id="start-screen">
             <h1>Quiz Time!</h1>
-            <p>Test your Knowledge with the five questions</p>
+            <p>Test your Knowledge with few questions</p>
             <button id="start-btn">Start Quiz</button>
         </div>
 
 
         <div class="screen" id="quiz-screen">
             <div class="quiz-header">
+                <div class="timer">
+            Time left: <span id="time-left">15</span>s
+        </div>
                 <h2 id="question-text">questions</h2>
                 <div class="quiz-info">
                     <p>
@@ -48,6 +52,6 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
